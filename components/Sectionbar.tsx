@@ -5,7 +5,7 @@ import { useState } from "react";
 
 export default function Sectionbar(){
 
-    const [activeTab, setActiveTab] = useState('Job preview');
+    const [activeTab, setActiveTab] = useState('Job Preview');
 
     const tabs = ['Job Preview', 'Applicants', 'Match', 'Messages']
 

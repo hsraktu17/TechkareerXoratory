@@ -1,4 +1,4 @@
-export default function BiggerSection1(){
+export default function JobTitle(){
     return<div>
         <div className="py-8 px-10">
             <div className="flex">

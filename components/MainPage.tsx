@@ -1,16 +1,25 @@
-import BiggerSection1 from "./BiggerSection1";
-import BiggerSection2 from "./BiggerSection2";
 import SmallerSection from "./SmallerSection";
+import JobTitle from "./JobTitle";
+import JobSkills from "./JobSkills";
+import AboutJob from "./AboutJob";
+import CompanyDescription from "./CompanyDescription";
+
 
 export default function MainPage(){
     return<div className="border">
-        <div className="grid grid-cols-3">
-            <div className="col-span-2 border-r-2">
+        <div className="grid grid-cols-5">
+            <div className="col-span-4 border-r-2">
                 <div className="border-b">
-                    <BiggerSection1/>
+                    <JobTitle/>
                 </div>
                 <div className="border-b">
-                    <BiggerSection2/>
+                    <JobSkills/>
+                </div>
+                <div className="border-b">
+                    <AboutJob/>
+                </div>
+                <div className="border-b">
+                    <CompanyDescription/>
                 </div>
             </div>
             <div className="col-span-1"> 
