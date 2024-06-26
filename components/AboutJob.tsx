@@ -28,7 +28,7 @@ export default function AboutJob(){
                     About this job
                 </div>
                 <div className="text-[#3D3D3D]">
-                    <div className="mt-3 text-[16px] font-medium">
+                    <div className="mt-3 text-[16px] font-[500px]">
                         <ol className='list-decimal pl-5 mb-4'>
                             {responsibilities.map((responsibility, index) => (
                             <li key={index} className='mb-2'>{responsibility}</li>

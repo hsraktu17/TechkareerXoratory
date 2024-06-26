@@ -5,8 +5,8 @@ import Image from 'next/image'
 
 export default function JobSkills(){
     return<div>
-        <div className="px-10 mt-8">
-            <div className="grid grid-cols-4 text-sm">
+        <div className="px-10 mt-8 mb-5">
+            <div className="grid grid-cols-5 text-sm">
                 <div>
                     <div className='text-[#6E6D6D]'>
                         Skills Required

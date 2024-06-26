@@ -2,7 +2,7 @@ import SmallerSection from "./SmallerSection";
 import JobTitle from "./JobTitle";
 import JobSkills from "./JobSkills";
 import AboutJob from "./AboutJob";
-import CompanyDescription from "./CompanyDescription";
+import AboutCompany from "./AboutCompany";
 
 
 export default function MainPage(){
@@ -18,8 +18,8 @@ export default function MainPage(){
                 <div className="border-b">
                     <AboutJob/>
                 </div>
-                <div className="border-b">
-                    <CompanyDescription/>
+                <div>
+                    <AboutCompany/>
                 </div>
             </div>
             <div className="col-span-1"> 
