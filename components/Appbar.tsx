@@ -31,7 +31,7 @@ export default function Appbar() {
                         </Link>
                     </div>
                 </div>
-                <div className="bg-[#DC4A2D] w-[6px] h-[6px] rounded-full absolute top-[2.29rem] left-[57.45rem]" />
+                <div className="bg-[#DC4A2D] w-[6px] h-[6px] rounded-full absolute top-[2.29rem] left-[57.01rem]" />
                 <div className="bg-[#DC4A2D] w-[6px] h-[6px] rounded-full absolute top-[2.09rem] right-[6.89rem]" />
                 <div className="flex items-center gap-x-4">
                     <div className="flex gap-x-5 relative">
